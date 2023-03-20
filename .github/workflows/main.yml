@@ -28,3 +28,4 @@ jobs:
           tool: jest
           tests_command: yarn test
           runs: 10
+          output_folder: jests-tests-example/output

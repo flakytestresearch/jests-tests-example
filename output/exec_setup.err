@@ -5,31 +5,6 @@ warning package.json: No license field
 warning No license field
 warning package.json: No license field
 FAIL tests/randomnumber.test.js
-  ✕ Get random from 0 to 10 (14 ms)
-
-  ● Get random from 0 to 10
-
-    expect(received).toBeLessThan(expected)
-
-    Expected: < 5
-    Received:   7.485243279125687
-
-       7 |   const greatherNumber = 5;
-       8 |   console.log(randomNumber, greatherNumber)
-    >  9 |   expect(randomNumber).toBeLessThan(greatherNumber);
-         |                        ^
-      10 | });
-
-      at Object.toBeLessThan (tests/randomnumber.test.js:9:24)
-
-Test Suites: 1 failed, 1 total
-Tests:       1 failed, 1 total
-Snapshots:   0 total
-Time:        0.33 s, estimated 1 s
-Ran all test suites.
-error Command failed with exit code 1.
-warning package.json: No license field
-FAIL tests/randomnumber.test.js
   ✕ Get random from 0 to 10 (15 ms)
 
   ● Get random from 0 to 10
@@ -37,7 +12,7 @@ FAIL tests/randomnumber.test.js
     expect(received).toBeLessThan(expected)
 
     Expected: < 5
-    Received:   5.730818841528187
+    Received:   9.874340321432253
 
        7 |   const greatherNumber = 5;
        8 |   console.log(randomNumber, greatherNumber)
@@ -50,44 +25,28 @@ FAIL tests/randomnumber.test.js
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        0.191 s, estimated 1 s
+Time:        0.237 s, estimated 1 s
 Ran all test suites.
 error Command failed with exit code 1.
 warning package.json: No license field
-FAIL tests/randomnumber.test.js
-  ✕ Get random from 0 to 10 (14 ms)
+PASS tests/randomnumber.test.js
+  ✓ Get random from 0 to 10 (15 ms)
 
-  ● Get random from 0 to 10
-
-    expect(received).toBeLessThan(expected)
-
-    Expected: < 5
-    Received:   6.207414462295211
-
-       7 |   const greatherNumber = 5;
-       8 |   console.log(randomNumber, greatherNumber)
-    >  9 |   expect(randomNumber).toBeLessThan(greatherNumber);
-         |                        ^
-      10 | });
-
-      at Object.toBeLessThan (tests/randomnumber.test.js:9:24)
-
-Test Suites: 1 failed, 1 total
-Tests:       1 failed, 1 total
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        0.192 s, estimated 1 s
+Time:        0.171 s, estimated 1 s
 Ran all test suites.
-error Command failed with exit code 1.
 warning package.json: No license field
 FAIL tests/randomnumber.test.js
-  ✕ Get random from 0 to 10 (15 ms)
+  ✕ Get random from 0 to 10 (16 ms)
 
   ● Get random from 0 to 10
 
     expect(received).toBeLessThan(expected)
 
     Expected: < 5
-    Received:   8.275146624542844
+    Received:   6.766584670591332
 
        7 |   const greatherNumber = 5;
        8 |   console.log(randomNumber, greatherNumber)
@@ -104,15 +63,24 @@ Time:        0.198 s, estimated 1 s
 Ran all test suites.
 error Command failed with exit code 1.
 warning package.json: No license field
+PASS tests/randomnumber.test.js
+  ✓ Get random from 0 to 10 (15 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.175 s, estimated 1 s
+Ran all test suites.
+warning package.json: No license field
 FAIL tests/randomnumber.test.js
-  ✕ Get random from 0 to 10 (16 ms)
+  ✕ Get random from 0 to 10 (15 ms)
 
   ● Get random from 0 to 10
 
     expect(received).toBeLessThan(expected)
 
     Expected: < 5
-    Received:   5.673094906423605
+    Received:   8.473485308070343
 
        7 |   const greatherNumber = 5;
        8 |   console.log(randomNumber, greatherNumber)
@@ -125,6 +93,6 @@ FAIL tests/randomnumber.test.js
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        0.226 s, estimated 1 s
+Time:        0.192 s, estimated 1 s
 Ran all test suites.
 error Command failed with exit code 1.

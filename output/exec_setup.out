@@ -8,18 +8,18 @@ info Direct dependencies
 └─ jest-junit@15.0.0
 info All dependencies
 └─ jest-junit@15.0.0
-Done in 0.82s.
+Done in 1.54s.
 yarn install v1.22.19
 [1/4] Resolving packages...
 [2/4] Fetching packages...
 [3/4] Linking dependencies...
 [4/4] Rebuilding all packages...
 success Saved lockfile.
-Done in 0.49s.
+Done in 0.46s.
 yarn run v1.22.19
 $ jest --reporters=default --reporters=jest-junit
   console.log
-    7.485243279125687 5
+    9.874340321432253 5
 
       at Object.log (tests/randomnumber.test.js:8:11)
 
@@ -27,7 +27,15 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 yarn run v1.22.19
 $ jest --reporters=default --reporters=jest-junit
   console.log
-    5.730818841528187 5
+    0.9262643863945064 5
+
+      at Object.log (tests/randomnumber.test.js:8:11)
+
+Done in 0.51s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+  console.log
+    6.766584670591332 5
 
       at Object.log (tests/randomnumber.test.js:8:11)
 
@@ -35,23 +43,15 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 yarn run v1.22.19
 $ jest --reporters=default --reporters=jest-junit
   console.log
-    6.207414462295211 5
+    3.3156171256388545 5
 
       at Object.log (tests/randomnumber.test.js:8:11)
 
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Done in 0.51s.
 yarn run v1.22.19
 $ jest --reporters=default --reporters=jest-junit
   console.log
-    8.275146624542844 5
-
-      at Object.log (tests/randomnumber.test.js:8:11)
-
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-yarn run v1.22.19
-$ jest --reporters=default --reporters=jest-junit
-  console.log
-    5.673094906423605 5
+    8.473485308070343 5
 
       at Object.log (tests/randomnumber.test.js:8:11)
 

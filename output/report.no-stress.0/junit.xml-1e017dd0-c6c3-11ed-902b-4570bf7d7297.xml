@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.328">
-  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2023-03-20T01:35:33" time="0.23" tests="1">
-    <testcase classname=" Get random from 0 to 10" name=" Get random from 0 to 10" time="0.014">
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.235">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2023-03-20T02:01:24" time="0.206" tests="1">
+    <testcase classname=" Get random from 0 to 10" name=" Get random from 0 to 10" time="0.015">
       <failure>Error: expect(received).toBeLessThan(expected)
 
 Expected: &lt; 5
-Received:   7.485243279125687
+Received:   9.874340321432253
     at Object.toBeLessThan (/home/rafael/Documentos/workspace/jests-tests-example/tests/randomnumber.test.js:9:24)
     at Promise.then.completed (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/utils.js:293:28)
     at new Promise (&lt;anonymous&gt;)
