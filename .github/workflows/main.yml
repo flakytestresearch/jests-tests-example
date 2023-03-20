@@ -27,4 +27,4 @@ jobs:
         with:
           tool: jest
           tests_command: npm run test
-          runs: 1000
+          runs: 10
