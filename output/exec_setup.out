@@ -1,0 +1,63 @@
+yarn add v1.22.19
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved 1 new dependency.
+info Direct dependencies
+└─ jest-junit@15.0.0
+info All dependencies
+└─ jest-junit@15.0.0
+Done in 1.70s.
+yarn install v1.22.19
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Rebuilding all packages...
+success Saved lockfile.
+Done in 0.56s.
+
+> jests-tests-example@1.0.0 test
+> jest
+
+  console.log
+    0.6411206961875626 5
+
+      at Object.log (tests/randomnumber.test.js:8:11)
+
+
+> jests-tests-example@1.0.0 test
+> jest
+
+  console.log
+    8.471222757949782 5
+
+      at Object.log (tests/randomnumber.test.js:8:11)
+
+
+> jests-tests-example@1.0.0 test
+> jest
+
+  console.log
+    6.1348459558332 5
+
+      at Object.log (tests/randomnumber.test.js:8:11)
+
+
+> jests-tests-example@1.0.0 test
+> jest
+
+  console.log
+    2.649487018362986 5
+
+      at Object.log (tests/randomnumber.test.js:8:11)
+
+
+> jests-tests-example@1.0.0 test
+> jest
+
+  console.log
+    4.966858149185713 5
+
+      at Object.log (tests/randomnumber.test.js:8:11)
+
