@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.19">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2023-03-20T01:35:38" time="0.161" tests="1">
+    <testcase classname=" Get random from 0 to 10" name=" Get random from 0 to 10" time="0.014">
+      <failure>Error: expect(received).toBeLessThan(expected)
+
+Expected: &lt; 5
+Received:   6.207414462295211
+    at Object.toBeLessThan (/home/rafael/Documentos/workspace/jests-tests-example/tests/randomnumber.test.js:9:24)
+    at Promise.then.completed (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/utils.js:293:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/utils.js:226:10)
+    at _callCircusTest (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/run.js:297:40)
+    at _runTest (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/run.js:233:3)
+    at _runTestsForDescribeBlock (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/run.js:135:9)
+    at run (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/run.js:68:3)
+    at runAndTransformResultsToJestFormat (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/rafael/Documentos/workspace/jests-tests-example/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
