@@ -3,8 +3,10 @@ function get_random_number(a) {
 }
 
 test('Get random from 0 to 10', () => {
-  const randomNumber = get_random_number(10);
-  const greatherNumber = 5;
+  const randomNumber = get_random_number(100);
+  const greatherNumber = 99;
+  const lowerNumber = 1;
   console.log(randomNumber, greatherNumber)
   expect(randomNumber).toBeLessThan(greatherNumber);
+  expect(randomNumber).toBeGreaterThan(lowerNumber);
 });
