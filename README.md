@@ -5,3 +5,9 @@
 
 
 ### Flaky OR Failure ? 
+
+### Examples 
+
+ - Data tests: object, promise and serialize
+ - Math tests: functions, sort functions, numbers
+ - API tests: requests
