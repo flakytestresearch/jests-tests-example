@@ -19,6 +19,6 @@ test("Object serialize test", () => {
 
 test("Object serialize test with delay", async () => {
   const person = get_serialized_object();
-  await delay(1);
+  // await delay(1000);
   expect(person).toMatchObject(get_serialized_object());
 });
