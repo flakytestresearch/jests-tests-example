@@ -26,6 +26,6 @@ jobs:
         uses: sorattorafa/shaker-js@main
         with:
           tool: jest
-          tests_command: yarn test
+          tests_command: npm run test
           runs: 10
           output_folder: jests-tests-example/output
