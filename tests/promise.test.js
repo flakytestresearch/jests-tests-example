@@ -1,11 +1,9 @@
 function delay(time) {
   return new Promise((resolve) => setTimeout(resolve, time));
 }
-function getPromise() {
-  return new Promise(async (resolve, reject) => {
-    // await delay(5000);
-    resolve(1);
-  });
+async function getPromise() {
+    await delay(2000);
+    return 1;
 }
 
 test("resolves to 1", async () => {
