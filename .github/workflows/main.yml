@@ -22,9 +22,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
       - name: Jest tests
         uses: sorattorafa/shaker-js@main
         with:
