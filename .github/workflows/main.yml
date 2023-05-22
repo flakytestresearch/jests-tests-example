@@ -15,18 +15,16 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   run-in-container:
-    build:
-      # The type of runner that the job will run on
-      runs-on: ubuntu-latest
-      container: node:18-alpine
+    runs-on: ubuntu-latest
+    container: node:18-alpine
       # Steps represent a sequence of tasks that will be executed as part of the job
-      steps:
-        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-        - uses: actions/checkout@v3
-        - name: Jest tests
-          uses: sorattorafa/shaker-js@main
-          with:
-            tool: jest
-            tests_command: yarn test
-            runs: 1
-            #output_folder: jests-tests-example/output
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+      - name: Jest tests
+        uses: sorattorafa/shaker-js@main
+        with:
+          tool: jest
+          tests_command: yarn test
+          runs: 1
+          output_folder: jests-tests-example/output
