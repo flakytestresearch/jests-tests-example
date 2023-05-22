@@ -1,10 +1,13 @@
 {
   "dependencies": {
     "jest": "^29.5.0",
-    "jest-junit": "^15.0.0",
+    "jest-junit": "^16.0.0",
     "serialize-javascript": "^6.0.1"
   },
   "scripts": {
     "test": "jest"
+  },
+  "engines": {
+    "node": "18"
   }
 }
