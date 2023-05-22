@@ -22,9 +22,9 @@ test("Object serialize length test", () => {
       age: 24,
       work: "Flaky tests",
       creagted_at: new Date("2022-11-06T00:00:00.000Z")
-        .toUTCString()
+        .toISOString()
         .replace(/T/, " ")
         .replace(/\..+/, ""),
     }).length
-  ).toBe(93);
+  ).toBe(83);
 });
